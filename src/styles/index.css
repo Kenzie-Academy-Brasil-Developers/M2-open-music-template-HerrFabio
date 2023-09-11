@@ -1,7 +1,11 @@
+body {
+    min-height: 100vh;
+}
+
 .title_container {
     display: flex;
-    padding: 2rem;
-    margin: 1rem;
+    padding: 0 2rem 2rem 2rem;
+    margin: 0 1rem 1rem 1rem;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -10,11 +14,13 @@
     color: var(--color-grey-0);
     font-size: var(--font-1);
     font-weight: 900;
+    margin-top: 3rem;
 }
 
 button {
     font-weight: 50;
     padding: 0.45rem;
+    margin-top: 3rem;
     border: none;
     border-radius: 0.15rem;
     background-color: var(--color-grey-7);
@@ -29,7 +35,7 @@ button {
 #containerRenderCard {
     display: flex;
     padding: 2rem;
-    margin: 1rem;
+    margin: 1rem 1em 0 1rem;
     flex-direction: column;
 }
 
@@ -123,6 +129,11 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 
+
+.dark-mode body {
+    min-height: 100vh;
+    background-color: var(--color-grey-9);
+}
 
 .dark-mode header {
     background-color: var(--color-grey-9);
